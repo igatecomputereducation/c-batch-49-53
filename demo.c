@@ -1,19 +1,12 @@
 #include<stdio.h>
-int addition(int,int,int);
 int main()
 {
-	int a,b,c,s;
-	a=34;
-	b=25;
-	c=60;
-	s=addition(a,b,c);
-	printf("Addition %d",s);
+	int a[4];
+	a[6]=45;
+	printf("%d",a[6]);
 	return 0;
 }
-int addition(int x,int y,int z)
-{
-	return x+y+z;
-}
+
 
 
 
