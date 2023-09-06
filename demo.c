@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-	int a[4];
-	a[6]=45;
-	printf("%d",a[6]);
+	long double x;
+	x=12.45;
+	printf("%Lf",x);
 	return 0;
 }
 
